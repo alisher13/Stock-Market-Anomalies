@@ -1,0 +1,10 @@
+There are several well-known stock market anomalies such as the turn-of-the-year effect, the weekend effect, the value effect, the momentum effect which have generally been thought to affect stock prices. Even though some researchers have documented these anomalies hold, there is no consensus among academics and practitioners whether they consistently hold. Similarly, lunar events such as full moon, solar eclipse, lunar eclipse, half moon, and new moon have been thought to affect many events including
+stock market behaviour. Our research has found evidence that these anomalies exist in the stock market. I have found that in general trading on days which are full moons, days of the week (Tuesday, Wednesdays), Months (December, January), the first day of the month and holidays (Thanksgiving, Memorial Day, Christmas,
+Columbus Day) on average trade higher than days other than the event. 
+
+In the analysis I obtain historical data on holidays, calendar data, ful-moon data and associate as well as historical stock performance data. I use ipython notebook and Python's libraries such as pandas, matplotlib, scikitlearn to analyze data.
+I perform a supervised machine learning analysis which involved the use and the comparison of three statistical approaches: KneighborsClassifier, LogisticRegression, eXtreme gradient boosting (Xgboost). 
+KneighborsClassifier yielded the highest accuracy of approximately 60% when the k was set at 10. The predictive accuracy of the LogisticRegression, which implements regularized logistic regression using the liblinear library, newton-cg and lbfgs
+solvers12, method was found to be a little over 55%. The third approach used is eXtreme gradient boosting (Xgboost), a large scale tree boosting method, which builds an additive model in a forward stage-wise fashion allowing 11 http://scikitlearn.org/stable/modules/neighbors.html#neighb
+ors 12 http://scikitlearn.org/stable/modules/generated/sklearn.line ar_model.LogisticRegression.html for the optimization of arbitrary differentiable loss
+functions. 
